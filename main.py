@@ -9,9 +9,14 @@ grid = [[ random.randint(0,1) for x in range(0,10)] for y in range(0,10)]
 automate(grid)
 
 
+
+
+
 #	UPDATE TO NEW GRID
 def automate(originalGrid):
-	
+	for x in grid:
+		grid[x] = calculate(grid[x])
+		pass
 
 
 	pass
@@ -19,6 +24,10 @@ def automate(originalGrid):
 
 #	RULE FUNCTION
 def calculate(originalGrid):
+	
+	pass
+
+
 
 
 
